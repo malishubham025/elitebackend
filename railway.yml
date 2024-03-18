@@ -1,0 +1,5 @@
+services:
+  my-python-service:
+    buildCommand: python main.py
+    env:
+      PYTHON_VERSION: "3.9"  # Change this to the desired Python version
